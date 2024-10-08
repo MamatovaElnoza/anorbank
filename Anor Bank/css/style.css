@@ -414,7 +414,7 @@ a {
 /*Footer*/
 .footer {
     width: 100%;
-    height: 800px;
+    height: 765px;
     background-color: #f4f2f2;
 }
 
@@ -459,8 +459,9 @@ a {
 /*Footer Middle*/
 .footer-middle {
     width: 100%;
-    height: 600px;
+    height: 580px;
     display: flex;
+    border-bottom: 1px solid rgb(178, 178, 178);
 }
 .footer-middle1, .footer-middle2, .footer-middle3, .footer-middle4 {
     width: 25%;
@@ -478,13 +479,10 @@ a {
 }
 .TAS-IX {
     background-color: #A30041;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     padding: 5px;
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
     font-size: 12px;
     height: 80%;
     writing-mode: vertical-lr;
@@ -496,4 +494,12 @@ a {
     font-size: 1rem;
     padding: 5px;
     margin-top: -15px;
+}
+
+.footer-bottom {
+    display: flex;
+}
+.footer-bottom-left, .footer-bottom-middle, .footer-bottom-right {
+    padding-left: 80px;
+    margin-top: 25px;
 }
